@@ -1,11 +1,9 @@
-/* Сброс */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* Общие стили */
 body {
   font-family: Inter, Arial, sans-serif;
   background: linear-gradient(180deg, #071028 0%, #0f1724 100%);
@@ -19,7 +17,6 @@ body {
   padding: 0 20px;
 }
 
-/* Шапка */
 .site-header {
   padding: 18px 0;
 }
@@ -30,16 +27,15 @@ body {
   align-items: center;
 }
 
-.logo {
-  font-weight: bold;
-  color: #6EE7B7;
-  text-decoration: none;
-  letter-spacing: 0.4px;
+.logo-img {
+  width: 120px;
+  height: auto;
 }
 
 .nav-menu {
   display: flex;
   gap: 16px;
+  transition: all 0.3s ease;
 }
 
 .nav-menu a {
@@ -47,6 +43,7 @@ body {
   text-decoration: none;
   padding: 8px;
   border-radius: 8px;
+  cursor: default;
 }
 
 .nav-menu a:hover {
@@ -60,9 +57,9 @@ body {
   border: 0;
   color: #9aa6bf;
   font-size: 22px;
+  cursor: default;
 }
 
-/* Hero */
 .hero {
   padding: 80px 0 60px;
   text-align: center;
@@ -90,7 +87,6 @@ body {
   font-weight: 600;
 }
 
-/* Features */
 .features {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -105,7 +101,6 @@ body {
   min-height: 140px;
 }
 
-/* Footer */
 .site-footer {
   padding: 30px 0;
   color: #9aa6bf;
@@ -113,7 +108,7 @@ body {
   text-align: center;
 }
 
-/* Адаптив */
+/* адаптив */
 @media (max-width: 900px) {
   .features {
     grid-template-columns: repeat(2, 1fr);
@@ -124,23 +119,38 @@ body {
 }
 
 @media (max-width: 650px) {
+  .site-header .container {
+    position: relative;
+  }
+
   .nav-menu {
     position: absolute;
-    top: 68px;
+    top: 100%;
     right: 20px;
-    display: none;
     flex-direction: column;
     background: #081022;
     padding: 12px;
     border-radius: 10px;
+    display: none;
   }
+
   .nav-menu.open {
     display: flex;
   }
+
   .nav-toggle {
     display: block;
   }
+
   .features {
     grid-template-columns: 1fr;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+  }
+
+  .logo-img {
+    width: 100px;
   }
 }
