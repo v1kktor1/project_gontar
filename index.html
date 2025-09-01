@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Project — Классный сайт</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="/">Лого</a>
+      <button class="nav-toggle" aria-expanded="false" aria-label="Открыть меню">☰</button>
+      <nav class="nav-menu" id="nav">
+        <a href="#features">Фичи</a>
+        <a href="#about">О нас</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>Коротко. Красиво. Работает.</h1>
+        <p class="lead">Простая и аккуратная посадочная страница — чуть кода, много шарма.</p>
+        <a class="btn" href="#features">Посмотреть</a>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="features container">
+      <article class="card">
+        <h3>Быстро</h3>
+        <p>Короткие загрузки и минимализм в интерфейсе.</p>
+      </article>
+      <article class="card">
+        <h3>Просто</h3>
+        <p>Понятная структура и комментарии в коде.</p>
+      </article>
+      <article class="card">
+        <h3>Красиво</h3>
+        <p>Современный минималистичный дизайн.</p>
+      </article>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> — Твой проект</small>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
