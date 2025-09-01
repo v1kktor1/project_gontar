@@ -279,5 +279,6 @@ JS: если много кода — добавь ESLint.
 
 Форма обратной связи с валидацией.
 
-Мини-CMS / headless (Netlify CMS / Firebase) — если захочешь динамику.#   p r o j e c t _ g o n t a r  
+Мини-CMS / headless (Netlify CMS / Firebase) — если захочешь динамику.#   p r o j e c t _ g o n t a r 
+ 
  
