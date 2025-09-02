@@ -5,8 +5,8 @@
 }
 
 body {
-  font-family: Inter, Arial, sans-serif;
-  background: linear-gradient(180deg, #071028 0%, #0f1724 100%);
+  font-family: Unbounded, sans-serif;
+  background: linear-gradient(135deg, #0a1a2f 0%, #002b82 40%, #b700ff 100%);
   color: #E6EEF3;
   line-height: 1.5;
 }
@@ -43,7 +43,6 @@ body {
   text-decoration: none;
   padding: 8px;
   border-radius: 8px;
-  cursor: default;
 }
 
 .nav-menu a:hover {
@@ -72,7 +71,7 @@ body {
 }
 
 .lead {
-  color: #9aa6bf;
+  color: #d4d9e5;
   max-width: 700px;
   margin: 0 auto 20px;
 }
@@ -95,7 +94,7 @@ body {
 }
 
 .card {
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(0, 0, 0, 0.4);
   padding: 20px;
   border-radius: 12px;
   min-height: 140px;
