@@ -1,13 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const year = document.getElementById('year');
-  if (year) year.textContent = new Date().getFullYear();
-
-  const btn = document.querySelector('.nav-toggle');
-  const menu = document.querySelector('.nav-menu');
-  if (btn && menu) {
-    btn.addEventListener('click', () => {
-      const opened = menu.classList.toggle('open');
-      btn.setAttribute('aria-expanded', opened);
+  document.querySelectorAll('.scroll-link').forEach(link => {
+    link.addEventListener('click', e => {
+      e.preventDefault();
+      const targetId = link.getAttribute('href');
+      const target = document.querySelector(targetId);
+      if (target) target.scrollIntoView({ behavior: 'smooth' });
     });
-  }
+  });
 });

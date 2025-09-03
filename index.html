@@ -3,55 +3,62 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>Мій проєкт</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>Formula One Project</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Unbounded:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="img/logo.png" type="image/png">
+  <link rel="icon" href="assets/logo.png" type="image/png">
 </head>
 
 <body>
   <header class="site-header">
-  <div class="container">
-    <span href="#" class="logo">
-      <img src="img/logo.png" alt="Лого" class="logo-img">
-    </span>
-    <button class="nav-toggle" aria-expanded="false" aria-labe5l="Відкрити меню">☰</button>
-    <nav class="nav-menu" id="nav">
-      <a href="#features">Можливості</a>
-      <a href="#about">Про нас</a>
-      <a href="#contact">Контакти</a>
-    </nav>  
-  </div>
+    <div class="container">
+      <img src="assets/logo.png" alt="F1 Logo" class="logo-img">
+      <nav class="nav-menu">
+        <a href="#models" class="scroll-link">Моделі</a>
+        <a href="#teams" class="scroll-link">Команди</a>
+        <a href="#tech" class="scroll-link">Технології</a>
+        <a href="#contact" class="scroll-link">Контакти</a>
+      </nav>
+    </div>
   </header>
   
   <main>
     <section class="hero">
       <div class="container hero-inner">
-        <h1>Створюй. Вдосконалюй. Надихай.</h1>
-        <p class="lead">Наш проєкт допоможе втілити ідеї в життя.</p>
-        <a class="btn" href="#features">Переглянути</a>
+        <h1>SPEED. POWER. LEGENDS.</h1>
+        <p class="lead">Тут народжуються машини майбутнього</p>
+        <a class="btn scroll-link" href="#models">Детальніше</a>
       </div>
     </section>
 
-    <section id="features" class="features container">
-      <article class="card">
-        <h3>Швидкість</h3>
-        <p>Оптимізовані рішення для максимальної продуктивності.</p>
-      </article>
-      <article class="card">
-        <h3>Зручність</h3>
-        <p>Інтерфейс, зрозумілий кожному користувачу.</p>
-      </article>
-      <article class="card">
-        <h3>Надійність</h3>
-        <p>Стабільна робота та сучасні технології.</p>
-      </article>
+    <section id="models" class="page-section">
+      <div class="container">
+        <h2>Моделі болідів</h2>
+      </div>
+    </section>
+
+    <section id="teams" class="page-section">
+      <div class="container">
+        <h2>Команди F1</h2>
+      </div>
+    </section>
+
+    <section id="tech" class="page-section">
+      <div class="container">
+        <h2>Технології болідів</h2>
+      </div>
+    </section>
+
+    <section id="contact" class="page-section">
+      <div class="container">
+        <h2>Контакти</h2>
+      </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <small>© <span id="year"></span> — Мій проєкт</small>
+      <small>© 2025 — Formula One Project</small>
     </div>
   </footer>
 
