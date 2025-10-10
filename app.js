@@ -29,13 +29,13 @@ document.addEventListener('DOMContentLoaded', () => {
       // Визначаємо, на яку сторінку переходити
       switch (title) {
         case 'FERRARI SF-23':
-          window.open('ferrari.html', '_blank');
+          window.open('carsweb/ferrari.html', '_blank');
           break;
         case 'MERCEDES W14':
-          window.open('mercedes.html', '_blank');
+          window.open('carsweb/mercedes.html', '_blank');
           break;
         case 'RED BULL RB19':
-          window.open('redbull.html', '_blank');
+          window.open('carsweb/redbull.html', '_blank');
           break;
         default:
           alert('Сторінка в розробці 🚧');
