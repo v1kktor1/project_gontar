@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <title>Ferrari SF-23 — Італійська легенда швидкості</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Unbounded:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      background: radial-gradient(circle at center, #330000, #000);
+      color: #fff;
+      font-family: "Unbounded", sans-serif;
+      padding: 40px;
+      text-align: center;
+      line-height: 1.7;
+    }
+
+    .car-hero {
+      max-width: 1000px;
+      margin: 0 auto;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 0 30px rgba(255,0,0,0.5);
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    .car-hero img {
+      width: 100%;
+      display: block;
+    }
+
+    h1 {
+      font-family: "Orbitron", sans-serif;
+      font-size: 42px;
+      color: #ff3333;
+      text-transform: uppercase;
+      margin: 30px 0 10px;
+      letter-spacing: 2px;
+    }
+
+    .specs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 900px;
+      margin: 40px auto;
+      background: rgba(255,255,255,0.05);
+      padding: 30px;
+      border-radius: 15px;
+      backdrop-filter: blur(10px);
+    }
+
+    .specs div {
+      background: rgba(255,0,0,0.1);
+      border-radius: 10px;
+      padding: 15px;
+    }
+
+    .specs strong {
+      display: block;
+      font-family: "Orbitron", sans-serif;
+      font-size: 16px;
+      color: #ff4d4d;
+    }
+
+    p {
+      max-width: 850px;
+      margin: 20px auto;
+      color: #ddd;
+      font-size: 17px;
+    }
+
+    a.back {
+      display: inline-block;
+      margin-top: 40px;
+      color: #ff4d4d;
+      text-decoration: none;
+      border: 1px solid #ff4d4d;
+      padding: 12px 20px;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      font-family: "Orbitron", sans-serif;
+    }
+
+    a.back:hover {
+      background: #ff0000;
+      color: #fff;
+      box-shadow: 0 0 15px #ff0000;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+  </style>
+</head>
+<body>
+  <div class="car-hero">
+    <img src="ferrari2.jpeg" alt="Ferrari SF-23">
+  </div>
+  <h1>Ferrari SF-23</h1>
+  <p><strong>Ferrari SF-23</strong> — це символ італійської пристрасті та інженерної майстерності. 
+  Болід сезону 2023 року створений з акцентом на аеродинамічну стабільність та ефективність у поворотах. 
+  Ferrari продовжує поєднувати елегантність із безкомпромісною швидкістю.</p>
+
+  <div class="specs">
+    <div><strong>Двигун:</strong> 1.6L V6 Turbo Hybrid</div>
+    <div><strong>Потужність:</strong> ~1050 к.с.</div>
+    <div><strong>Макс. швидкість:</strong> 355 км/год</div>
+    <div><strong>Вага:</strong> 798 кг</div>
+    <div><strong>Команда:</strong> Scuderia Ferrari</div>
+    <div><strong>Пілоти:</strong> Charles Leclerc, Carlos Sainz</div>
+  </div>
+
+  <p>SF-23 отримав нову задню частину шасі, вдосконалене охолодження та підвіску для кращої керованості. 
+  Інженери Ferrari зробили акцент на стабільності на високій швидкості та покращенні розподілу ваги. 
+  Візуально болід став більш агресивним, з новим червоним кольором Rosso F1-75.</p>
+
+</body>
+</html>

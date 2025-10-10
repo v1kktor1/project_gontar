@@ -55,11 +55,7 @@ body {
 }
 
 .hero {
-<<<<<<< HEAD
-  min-height: 80vh; 
-=======
   min-height: 80vh;
->>>>>>> 14d10fd (first commit)
   display: flex;
   align-items: center;
   justify-content: center;
@@ -102,11 +98,7 @@ body {
 
 .page-section {
   min-height: 100vh;
-<<<<<<< HEAD
-  padding: 60px 0; 
-=======
   padding: 60px 0;
->>>>>>> 14d10fd (first commit)
   background: #0b0b0b;
   border-top: 1px solid rgba(255,255,255,0.1);
 }
@@ -135,6 +127,7 @@ body {
   max-width: 320px;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
 }
 
 .car-card:hover {
@@ -150,10 +143,7 @@ body {
 .car-card h3 {
   font-family: "Orbitron", sans-serif;
   font-size: 22px;
-<<<<<<< HEAD
-=======
   filter: drop-shadow(0 0 5px rgba(255,255,255,0.3));
->>>>>>> 14d10fd (first commit)
   margin-bottom: 10px;
   color: #fff;
 }
@@ -163,10 +153,7 @@ body {
   color: #ccc;
 }
 
-<<<<<<< HEAD
-/* Команди */
-=======
->>>>>>> 14d10fd (first commit)
+/* Teams */
 .teams-grid {
   display: flex;
   flex-wrap: wrap;
@@ -181,11 +168,7 @@ body {
   border-radius: 15px;
   padding: 20px;
   text-align: center;
-<<<<<<< HEAD
-  flex: 1 1 280px;  
-=======
   flex: 1 1 280px;
->>>>>>> 14d10fd (first commit)
   max-width: 320px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -233,25 +216,18 @@ body {
 
 .team-card-wide h3 {
   font-family: "Orbitron", sans-serif;
-<<<<<<< HEAD
-  font-size: 24px;
-  margin-bottom: 12px;
-}
-=======
   filter: drop-shadow(0 0 5px rgba(255,255,255,0.3));
   font-size: 24px;
   margin-bottom: 12px;
 }
 
->>>>>>> 14d10fd (first commit)
 .team-card-wide p {
   font-size: 16px;
   color: #ccc;
   line-height: 1.7;
-<<<<<<< HEAD
-=======
 }
 
+/* Tech grid */
 .tech-grid {
   display: flex;
   justify-content: space-between;
@@ -301,6 +277,7 @@ body {
   line-height: 1.5;
 }
 
+/* Contact */
 .contact-grid {
   display: flex;
   flex-direction: column;
@@ -352,19 +329,22 @@ body {
 }
 
 .contact-form button {
-  font-family: "Unbounded", sans-serif;
   align-self: center;
+  font-family: "Unbounded", sans-serif;
+  cursor: pointer;
+  font-size: 16px;
+  letter-spacing: 1px;
 }
 
 .contact-icons {
   display: flex;
   justify-content: center;
-  gap: 20px; 
-  flex-wrap: wrap; 
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .contact-icons img {
-  width: 50px; 
+  width: 50px;
   height: 50px;
   border-radius: 10px;
   background: #111;
@@ -375,13 +355,4 @@ body {
 .contact-icons img:hover {
   transform: scale(1.05);
   filter: brightness(1.1);
-}
-
-.contact-form button {
-  align-self: center;
-  font-family: "Unbounded", sans-serif;
-  cursor: pointer;
-  font-size: 16px;
-  letter-spacing: 1px;
->>>>>>> 14d10fd (first commit)
 }
