@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!doctype html>
 <html lang="uk">
 <head>
@@ -34,3 +35,74 @@
   </main>
 </body>
 </html>
+=======
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Red Bull Racing</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Unbounded:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Unbounded', sans-serif;
+      background: radial-gradient(circle at top left, #010022, #000);
+      color: #eee;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      color: #ffcc00;
+      text-transform: uppercase;
+      font-size: 2.6rem;
+      text-shadow: 0 0 12px #ffcc0077;
+    }
+    h3, h4 { color: #ff5e00; }
+    p { line-height: 1.6; font-size: 1.1rem; color: #ddd; }
+    ul { list-style: none; padding: 0; }
+    li::before { content: "🏎️ "; color: #ffcc00; }
+    img {
+      border-radius: 12px;
+      border: 2px solid #ffcc00;
+      box-shadow: 0 0 25px rgba(255,204,0,0.4);
+      transition: transform .4s ease;
+      width: 420px;
+    }
+    img:hover { transform: scale(1.03); }
+    .team {
+      display: flex;
+      gap: 30px;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      animation: fadeIn 1.2s ease;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1>Red Bull Racing</h1>
+    <div class="team">
+      <img src="assets/redbull_team.png" alt="Red Bull Team">
+      <div style="max-width:640px;">
+        <h3>Про команду</h3>
+        <p>Одна з найуспішніших сучасних команд Формули-1. Відома інноваційним підходом, агресивним стилем гонок і непереможним духом чемпіонів.</p>
+        <h4>Пілоти</h4>
+        <ul>
+          <li>Max Verstappen</li>
+          <li>Sergio Pérez</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
+>>>>>>> 783a836 (134)

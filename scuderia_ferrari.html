@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Scuderia Ferrari</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Unbounded:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Unbounded', sans-serif;
+      background: radial-gradient(circle at top left, #1a0000, #000);
+      color: #eee;
+      overflow-x: hidden;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      color: #ff1b1b;
+      text-transform: uppercase;
+      font-size: 2.6rem;
+      margin-bottom: 10px;
+      text-shadow: 0 0 12px #ff1b1b99;
+    }
+    h3, h4 {
+      color: #ff4747;
+      margin-bottom: 8px;
+    }
+    p {
+      line-height: 1.6;
+      font-size: 1.1rem;
+      color: #ddd;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li::before {
+      content: "🏎️ ";
+      color: #ff4747;
+    }
+    img {
+      border-radius: 12px;
+      border: 2px solid #ff1b1b;
+      box-shadow: 0 0 25px rgba(255,0,0,0.4);
+      transition: transform .4s ease;
+      width: 420px;
+    }
+    img:hover { transform: scale(1.03); }
+    .team {
+      display: flex;
+      gap: 30px;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      animation: fadeIn 1.2s ease;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1>Scuderia Ferrari</h1>
+    <div class="team">
+      <img src="assets/ferrari_team.png" alt="Ferrari Team">
+      <div style="max-width:640px;">
+        <h3>Про команду</h3>
+        <p>Найстаріша команда в історії Формули-1. Відома своєю пристрастю, легендарним червоним кольором та численними перемогами. Тут представлені історія, титули та поточний склад.</p>
+        <h4>Пілоти</h4>
+        <ul>
+          <li>Charles Leclerc</li>
+          <li>Carlos Sainz</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
