@@ -10,10 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-<<<<<<< HEAD
-  // Плавний скрол (твій існуючий код)
-=======
->>>>>>> 783a836 (134)
   document.querySelectorAll('.scroll-link').forEach(link => {
     link.addEventListener('click', e => {
       e.preventDefault();
@@ -23,19 +19,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-<<<<<<< HEAD
-  // 🚗 Переходи при кліку на машини
-=======
->>>>>>> 783a836 (134)
   const cars = document.querySelectorAll('.car-card');
   cars.forEach(car => {
     car.addEventListener('click', () => {
       const title = car.querySelector('h3').textContent.trim();
-
-<<<<<<< HEAD
-      // Визначаємо, на яку сторінку переходити
-=======
->>>>>>> 783a836 (134)
       switch (title) {
         case 'FERRARI SF-23':
           window.open('ferrari.html', '_blank');
@@ -51,8 +38,6 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
-<<<<<<< HEAD
-=======
 });
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -81,5 +66,4 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
->>>>>>> 783a836 (134)
 });
