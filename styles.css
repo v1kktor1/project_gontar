@@ -34,12 +34,9 @@ body {
   transition: transform 0.4s ease;
 }
 
-<<<<<<< HEAD
 .logo-img:hover {
   transform: scale(1.1);
 }
-=======
->>>>>>> 783a836 (134)
 
 .nav-menu {
   display: flex;
@@ -156,10 +153,6 @@ body {
   color: #ccc;
 }
 
-<<<<<<< HEAD
-/* Teams */
-=======
->>>>>>> 783a836 (134)
 .teams-grid {
   display: flex;
   flex-wrap: wrap;
@@ -233,10 +226,6 @@ body {
   line-height: 1.7;
 }
 
-<<<<<<< HEAD
-/* Tech grid */
-=======
->>>>>>> 783a836 (134)
 .tech-grid {
   display: flex;
   justify-content: space-between;
@@ -260,12 +249,9 @@ body {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-<<<<<<< HEAD
 .tech-card:hover {
   transform: translateY(-8px) scale(1.01);
 }
-=======
->>>>>>> 783a836 (134)
 
 .tech-card img {
   width: 100%;
@@ -289,10 +275,6 @@ body {
   line-height: 1.5;
 }
 
-<<<<<<< HEAD
-/* Contact */
-=======
->>>>>>> 783a836 (134)
 .contact-grid {
   display: flex;
   flex-direction: column;
