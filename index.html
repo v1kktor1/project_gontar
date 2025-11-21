@@ -1,16 +1,26 @@
 <!doctype html>
 <html lang="uk">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Formula One Project</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Formula One Project — боліди, команди та технології Формули-1. Ferrari, Mercedes, Red Bull та інші легенди F1.">
+  <meta name="keywords" content="F1, Formula One, Formula 1, Ferrari, Mercedes, Red Bull, боліди, команди, гонки">
+
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Unbounded:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
   <link rel="stylesheet" href="styles.css">
+
+  <!-- Favicon -->
   <link rel="icon" href="assets/logo.png" type="image/png">
 </head>
 
 <body>
-  <header class="site-header">
+  <header id="top" class="site-header">
     <div class="container">
       <img src="assets/logo.png" alt="F1 Logo" class="logo-img">
       <nav class="nav-menu">
@@ -23,6 +33,7 @@
   </header>
   
   <main>
+    <!-- HERO -->
     <section class="hero">
       <div class="container hero-inner">
         <h1>SPEED. POWER. LEGENDS.</h1>
@@ -31,21 +42,22 @@
       </div>
     </section>
 
+    <!-- MODELS -->
     <section id="models" class="page-section">
       <div class="container">
         <h2>ЗНАЙОМТЕСЬ, ІКОНИ ШВИДКОСТІ</h2>
         <div class="cars-grid">
-          <div class="car-card">
+          <div class="car-card" data-page="ferrari.html">
             <img src="assets/ferrari1.jpg" alt="Ferrari SF-23">
             <h3>FERRARI SF-23</h3>
             <p>Швидкість, елегантність та агресивний дизайн. Болід Ferrari поєднує традицію та новітні технології.</p>
           </div>
-          <div class="car-card">
+          <div class="car-card" data-page="mercedes.html">
             <img src="assets/mercedes1.jpg" alt="Mercedes W14">
             <h3>MERCEDES W14</h3>
             <p>Символ домінування сучасної ери F1. Максимальна стабільність і передові аеродинамічні рішення.</p>
           </div>
-          <div class="car-card">
+          <div class="car-card" data-page="redbull.html">
             <img src="assets/redbull1.jpg" alt="Red Bull RB19">
             <h3>RED BULL RB19</h3>
             <p>Болід-чемпіон, створений для перемог. Вражаюча потужність та інноваційні технології.</p>
@@ -54,54 +66,42 @@
       </div>
     </section>
 
-    <!-- Команди -->
+    <!-- TEAMS -->
     <section id="teams" class="page-section">
       <div class="container">
         <h2>Команди F1</h2>
         <div class="teams-grid">
 
-          <div class="team-card">
+          <div class="team-card" data-page="scuderia_ferrari.html">
             <div class="team-photo">
               <img src="assets/ferrari_team.png" alt="Ferrari">
             </div>
             <h3>Scuderia Ferrari</h3>
-            <p><strong>Пілоти:</strong> Charles Leclerc, Carlos Sainz</p>
             <p class="team-desc">
               Найстаріша команда в історії Формули-1. Відомі своєю пристрастю, 
               культовим червоним кольором та легендарними перемогами.
             </p>
           </div>
 
-          <div class="team-card">
+          <div class="team-card" data-page="amg_petronas.html">
             <div class="team-photo">
               <img src="assets/mercedes_team.png" alt="Mercedes">
             </div>
             <h3>Mercedes-AMG Petronas</h3>
-            <p><strong>Пілоти:</strong> Lewis Hamilton, George Russell</p>
             <p class="team-desc">
               Домінатори сучасної ери, відомі своїми технологіями, точністю 
               та чемпіонськими болідами гібридної епохи.
             </p>
           </div>
 
-          <div class="team-card">
+          <div class="team-card" data-page="redbull_racing.html">
             <div class="team-photo">
               <img src="assets/redbull_team.png" alt="Red Bull">
             </div>
             <h3>Red Bull Racing</h3>
-            <p><strong>Пілоти:</strong> Max Verstappen, Sergio Pérez</p>
             <p class="team-desc">
               Молода, але надзвичайно успішна команда. Відомі агресивною 
               стратегією та інноваційними підходами в аеродинаміці.
-            </p>
-          </div>
-          
-          <div class="team-card team-card-wide">
-            <h3>LEGENDS FORMULA1</h3>
-            <p class="team-desc">
-              Формула1 — це не лише сучасні команди та боліди, а й десятки років історії, 
-              легендарні гонщики та драматичні моменти. Від Айртона Сенни до Міхаеля Шумахера — 
-              тут творилися справжні легенди автоспорту.
             </p>
           </div>
 
@@ -109,6 +109,7 @@
       </div>
     </section>
 
+    <!-- TECH -->
     <section id="tech" class="page-section">
       <div class="container">
         <h2>Технології болідів</h2>
@@ -145,6 +146,7 @@
       </div>
     </section>
 
+    <!-- CONTACT / FAQ -->
     <section id="contact" class="page-section">
       <div class="container">
         <h2>Контакти</h2>
@@ -153,13 +155,13 @@
         <div class="contact-grid">
           <!-- Соцмережі -->
           <div class="contact-icons">
-            <a href="https://www.instagram.com" target="_blank">
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
               <img src="assets/insta.png" alt="Instagram">
             </a>
-            <a href="https://www.twitter.com" target="_blank">
+            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
               <img src="assets/twitter.png" alt="Twitter">
             </a>
-            <a href="https://www.youtube.com" target="_blank">
+            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
               <img src="assets/youtube.png" alt="YouTube">
             </a>
             <a href="mailto:info@f1project.com">
@@ -173,10 +175,10 @@
             <p><strong>✉️ Email:</strong> info@f1project.com</p>
           </div>
     
-          <form class="contact-form">
-            <input type="text" placeholder="Ваше ім'я" required>
-            <input type="email" placeholder="Ваш Email" required>
-            <textarea placeholder="Ваше повідомлення" required></textarea>
+          <form class="contact-form" id="contactForm">
+            <input type="text" name="name" placeholder="Ваше ім'я" required>
+            <input type="email" name="email" placeholder="Ваш Email" required>
+            <textarea name="message" placeholder="Ваше повідомлення" required></textarea>
             <button type="submit" class="btn">Надіслати</button>
           </form>
         </div>
@@ -190,6 +192,9 @@
       <small>© 2025 — Formula One Project</small>
     </div>
   </footer>
+
+  <!-- Кнопка «наверх» -->
+  <button id="toTop" aria-label="Повернутися нагору">▲</button>
 
   <script src="app.js"></script>
 </body>
